@@ -11,3 +11,70 @@ Course Topics
 ✧ Sort
 ✧ Search
 ✧ Misc. algorithms and problem solving
+
+
+
+ʕっ•ᴥ•ʔっ TIME AND SPACE COMPLEXITY ✧
+
+The absolute running time of an algorithms cannot be predicted, since of these factors:
+✧ The programming language that being used
+✧ The computer that running the program
+✧ Other program running at the same time
+✧ Quality of the Operating System (OS)
+
+The performance of the algorithm is affected by the size of its input
+✧ Time Complexity = Amount of TIME taken by an algorithm to run
+✧ Space Complexity = Amount of MEMORY taken by an algorithm to run
+
+To represent complexity we can use Asymptotic Notations
+✧ Asymptotic Notations is Mathematical tools to represent time and space complexity
+  There are mainly 3 Asymptotic Notation:
+    1. Big-O Notation (O-notation) for Worst case complexity
+    2. Omega Notation (Ω-notation) for Best case complexity
+    3. Theta Notation (Θ-notation) for Average case complexity
+
+To make it more practical and easy to understand we'll be using the worst case complexity, because we will be more concern about the worst case complexity
+
+
+
+ʕっ•ᴥ•ʔっ BIG O NOTATION ✧
+the worst case complexity is represented using the Big-O notation
+Big-O describe the complexity of an algorithm using algebraic terms
+
+Big-O characteristic:
+✧ it is expressed in terms of the input
+✧ it focuses on the bigger picture without getting caught up in the minute details
+
+Time Complexity
+✧ O(n) is linear time complexity, because it will execute depends on the input
+    ex:
+    function summation(n){
+        let sum = 0
+        for (let i = 1; i<=n; i++){
+            sum +=i
+        }
+        return sum
+    }
+
+✧ O(1) is constant time complexity, because it execute only once
+    ex:
+    function summation(n){
+        return (n * (n + 1)) / 2
+    }
+
+✧ O(nˆ2) is quadratic time complexity, for two nested loop
+    ex:
+    for(i = 1; i <= n; i++){
+        for(j = 1; j <= i; j++){
+            //code
+        }
+    }
+
+    3nˆ2 + 5n + 1
+
+✧ O(nˆ3) is cubic time complexity, for three nested loop
+
+✧ O(logn) is logarithmic time complexity, for input size reduces by half every iteration
+
+
+

@@ -14,6 +14,15 @@ Course Topics
 
 
 
+ʕっ•ᴥ•ʔっ ALGORITHMS ✧
+is a set of well-defined instructor to solve a particular problem
+algorithms had well defined inputs and outputs, each step should be clear and unambiguous
+algorithms is language independent you can use algorithms in other language, its just a sequence of instructor
+
+we had many ways to resolve one problem, each way comes with its own tradeoff when it comes to performance and efficiency
+
+
+
 ʕっ•ᴥ•ʔっ TIME AND SPACE COMPLEXITY ✧
 
 The absolute running time of an algorithms cannot be predicted, since of these factors:

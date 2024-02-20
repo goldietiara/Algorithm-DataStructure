@@ -1,0 +1,13 @@
+My goal is to had a solid understanding of the fundamental of algorithms ( •̀ᴗ•́ )و 
+by taking a practical take on algorithms with JS ( •̀ᴗ•́ )و
+not going to go in depth on the theoretical aspects of algorithms ( ≖ ͜ʖ≖)
+
+Course Topics
+✧ Algorithms
+✧ Measuring Performance
+✧ Time and Space Complexity
+✧ Big O Notation 
+✧ Math Algorithms
+✧ Sort
+✧ Search
+✧ Misc. algorithms and problem solving

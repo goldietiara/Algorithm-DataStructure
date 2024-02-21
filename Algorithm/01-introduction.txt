@@ -97,5 +97,9 @@ Space Complexity
 
 ✧ O(log n) logarithmic space complexity, is when extra space needed grows but not at the same rate as the input size
 
+BIG O NOTATION NOTES:
+✧ different algorithms work well under different constraints and there is multiple algorithm for the same problem
+✧ the same algorithm with the same programming language can be implemented in different ways
+✧ when at work, don't lose sight of the big picture. rather than writing clever code, write code that is simple to read and maintain.
 
 

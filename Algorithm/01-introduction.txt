@@ -54,6 +54,7 @@ Big-O characteristic:
 ✧ it is expressed in terms of the input
 ✧ it focuses on the bigger picture without getting caught up in the minute details
 
+
 Time Complexity
 ✧ O(n) is linear time complexity, because it will execute depends on the input
     ex:
@@ -84,6 +85,17 @@ Time Complexity
 ✧ O(nˆ3) is cubic time complexity, for three nested loop
 
 ✧ O(logn) is logarithmic time complexity, for input size reduces by half every iteration
+✧ O(log n) is logarithmic time complexity, for input size reduces by half every iteration
+
+
+Space Complexity
+
+✧ O(1) Constant space complexity, is when the algorithm doesn't need an extra memory or the memory doesn't depend on the input size
+    ex: sorting, sorting the array without additional array
+
+✧ O(n) linear space complexity, is where extra space needed grows as the input size grows
+
+✧ O(log n) logarithmic space complexity, is when extra space needed grows but not at the same rate as the input size
 
 
 

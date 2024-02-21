@@ -84,7 +84,6 @@ Time Complexity
 
 ✧ O(nˆ3) is cubic time complexity, for three nested loop
 
-✧ O(logn) is logarithmic time complexity, for input size reduces by half every iteration
 ✧ O(log n) is logarithmic time complexity, for input size reduces by half every iteration
 
 
@@ -101,5 +100,60 @@ BIG O NOTATION NOTES:
 ✧ different algorithms work well under different constraints and there is multiple algorithm for the same problem
 ✧ the same algorithm with the same programming language can be implemented in different ways
 ✧ when at work, don't lose sight of the big picture. rather than writing clever code, write code that is simple to read and maintain.
+
+
+
+ʕっ•ᴥ•ʔっ BIG O NOTATION OBJECTS AND ARRAY ✧
+
+OBJECTS, is a collection of key values pairs
+time complexity of an object for:
+✧ Insert = O(1) constant, take the same amount of time on every execution
+✧ Remove = O(1) constant, take the same amount of time on every execution
+✧ Access = O(1) constant, take the same amount of time on every execution
+✧ Search = O(n) linear, had to look up to every properties until find what we were searching
+
+object method:
+✧ object.keys() = O(n) linear, return an array of the keys
+✧ object.values() = O(n) linear, return an array of the object values
+✧ object.entries() = O(n) linear, return an array of array object key and value
+
+ex:
+const user = {
+  name: "owy",
+  gender: "female",
+  dateOfBirth: "27-01-2021",
+  age: 3,
+  hobby: "workout",
+  job: "front-end developer",
+};
+
+Object.keys(user)
+[ 'name', 'gender', 'dateOfBirth', 'age', 'hobby', 'job' ]
+
+Object.values(user)
+[ 'owy', 'female', '27-01-2021', 3, 'workout', 'front-end developer' ]
+
+Object.entries(user)
+[
+  [ 'name', 'owy' ],
+  [ 'gender', 'female' ],
+  [ 'dateOfBirth', '27-01-2021' ],
+  [ 'age', 3 ],
+  [ 'hobby', 'workout' ],
+  [ 'job', 'front-end developer' ]
+]
+
+ARRAY, is an ordered collection of values
+time complexity for an array:
+✧ Insert / Remove at end = O(1) constant
+✧ Insert / Remove at beginning = O(n) linear, need to reset all the index
+✧ Access = O(1) constant
+✧ Search = O(n) linear, need to check every element to find the element that we were searching
+
+Array method:
+✧ Push / Pop = O(1)
+✧ Shift / Unshift / Concat / Slice / Splice = O(n)
+✧ forEach / map / filter / reduces = O(n)
+
 
 

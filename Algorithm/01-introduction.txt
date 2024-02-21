@@ -54,6 +54,7 @@ Big-O characteristic:
 ✧ it is expressed in terms of the input
 ✧ it focuses on the bigger picture without getting caught up in the minute details
 
+
 Time Complexity
 ✧ O(n) is linear time complexity, because it will execute depends on the input
     ex:
@@ -83,7 +84,94 @@ Time Complexity
 
 ✧ O(nˆ3) is cubic time complexity, for three nested loop
 
-✧ O(logn) is logarithmic time complexity, for input size reduces by half every iteration
+✧ O(log n) is logarithmic time complexity, for input size reduces by half every iteration
+
+
+Space Complexity
+
+✧ O(1) Constant space complexity, is when the algorithm doesn't need an extra memory or the memory doesn't depend on the input size
+    ex: sorting, sorting the array without additional array
+
+✧ O(n) linear space complexity, is where extra space needed grows as the input size grows
+
+✧ O(log n) logarithmic space complexity, is when extra space needed grows but not at the same rate as the input size
+
+BIG O NOTATION NOTES:
+✧ different algorithms work well under different constraints and there is multiple algorithm for the same problem
+✧ the same algorithm with the same programming language can be implemented in different ways
+✧ when at work, don't lose sight of the big picture. rather than writing clever code, write code that is simple to read and maintain.
+
+
+
+ʕっ•ᴥ•ʔっ BIG O NOTATION OBJECTS AND ARRAY ✧
+
+OBJECTS, is a collection of key values pairs
+time complexity of an object for:
+✧ Insert = O(1) constant, take the same amount of time on every execution
+✧ Remove = O(1) constant, take the same amount of time on every execution
+✧ Access = O(1) constant, take the same amount of time on every execution
+✧ Search = O(n) linear, had to look up to every properties until find what we were searching
+
+object method:
+✧ object.keys() = O(n) linear, return an array of the keys
+✧ object.values() = O(n) linear, return an array of the object values
+✧ object.entries() = O(n) linear, return an array of array object key and value
+
+ex:
+const user = {
+  name: "owy",
+  gender: "female",
+  dateOfBirth: "27-01-2021",
+  age: 3,
+  hobby: "workout",
+  job: "front-end developer",
+};
+
+Object.keys(user)
+[ 'name', 'gender', 'dateOfBirth', 'age', 'hobby', 'job' ]
+
+Object.values(user)
+[ 'owy', 'female', '27-01-2021', 3, 'workout', 'front-end developer' ]
+
+Object.entries(user)
+[
+  [ 'name', 'owy' ],
+  [ 'gender', 'female' ],
+  [ 'dateOfBirth', '27-01-2021' ],
+  [ 'age', 3 ],
+  [ 'hobby', 'workout' ],
+  [ 'job', 'front-end developer' ]
+]
+
+ARRAY, is an ordered collection of values
+time complexity for an array:
+✧ Insert / Remove at end = O(1) constant
+✧ Insert / Remove at beginning = O(n) linear, need to reset all the index
+✧ Access = O(1) constant
+✧ Search = O(n) linear, need to check every element to find the element that we were searching
+
+Array method:
+✧ Push / Pop = O(1)
+✧ Shift / Unshift / Concat / Slice / Splice = O(n)
+✧ forEach / map / filter / reduces = O(n)
+
+
+
+ʕっ•ᴥ•ʔっ MATH ALGORITHMS ✧
+
+Topics:
+✧ Fibonacci sequence
+✧ Factorial of number
+✧ Prime Number
+✧ Power of two
+✧ Recursion
+✧ Fibonacci sequence with recursion
+✧ Factorial of a number with recursion
+
+
+
+
+
 
 
 

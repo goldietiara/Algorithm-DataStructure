@@ -33,3 +33,7 @@ const theAnswer = (n) => {
 };
 
 console.log(theAnswer(11));
+
+// /ᐠᵕ ‸ᵕᐟ\ﾉ explanation
+// square root do not need to be checked because, whenever "n=a*b", one of the two factors "a" and "b" is less than or equal to the square root of "n"
+// by using Math.sqrt() it will checked the n but not as the same size (less time complexity - O(sqrt(n)))
